@@ -1,3 +1,21 @@
 .height-100 {
     height: 100px;
 }
+
+.top-section {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+
+.bottom-section {
+    width: 100%;
+    height: calc(100vh - 100px);
+    position: fixed;
+    bottom: 0;
+}
+
+.content-sidebar {
+    height: calc(100vh - 100px);
+}
