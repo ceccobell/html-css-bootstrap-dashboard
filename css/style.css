@@ -13,14 +13,13 @@
     align-items: center;
 }
 
-.top-section img {
-    width: 50px;
-    height: 50px;
+header {
+    width: 100%;
 }
 
 .bottom-section {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 75px);
     position: fixed;
     bottom: 0;
 }
@@ -32,7 +31,7 @@
 }
 
 .content-sidebar {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 75px);
 }
 
 /* UTILITY */ 
