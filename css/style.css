@@ -32,6 +32,12 @@ header {
 
 .content-sidebar {
     height: calc(100vh - 75px);
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051E34;
+}
+
+ul {
+    list-style-type: none;
 }
 
 /* UTILITY */ 
