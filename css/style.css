@@ -50,3 +50,8 @@ ul {
 .bg-blue {
     background-color: #165BBA;
 }
+
+.table img {
+    width: 25px;
+    height: auto;
+}
