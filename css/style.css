@@ -1,73 +1,81 @@
 .height-100 {
-    height: 100px;
+  height: 100px;
 }
 
 .top-section {
-    width: 100%;
-    background-color: rgb(248, 248, 248);
-    height: 75px;
-    display: flex;
-    align-items: center;
+  width: 100%;
+  background-color: rgb(248, 248, 248);
+  height: 75px;
+  display: flex;
+  align-items: center;
 }
 
 header {
-    width: 100%;
+  width: 100%;
 }
 
 .bottom-section {
-    width: 100%;
+  width: 100%;
 }
 
 .content-header {
-    width: 100%;
-    height: 50px;
-    background-color: white;
+  width: 100%;
+  height: 50px;
+  background-color: white;
 }
 
 .sidebar {
-    width: 50px;
-    height: calc(100vh - 75px);
+  width: 50px;
+  height: calc(100vh - 75px);
 }
 
 .main-corp {
-    width: calc(100% - 50px);
-    height: calc(100vh - 75px);
+  width: calc(100% - 50px);
+  height: calc(100vh - 75px);
 }
 
 .content-sidebar {
-    height: calc(100vh - 75px);
-    background-image: url(../img/sidebar-bg.png);
-    background-color: #051E34;
+  height: calc(100vh - 75px);
+  background-image: url(../img/sidebar-bg.png);
+  background-color: #051e34;
 }
 
 ul {
-    list-style-type: none;
-    padding-left: 0;
-    margin: 0;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
 }
 
-/* UTILITY */ 
+.custom-offcanvas {
+  width: 100% !important;
+}
+
+/* UTILITY */
 .bg-lightgray {
-    background-color: lightgray;
+  background-color: lightgray;
 }
 
 .bg-blue {
-    background-color: #165BBA;
+  background-color: #165bba;
 }
 
 .table img {
-    width: 25px;
-    height: auto;
+  width: 25px;
+  height: auto;
 }
 
-/* MEDIA */ 
+/* MEDIA */
 
 @media screen and (min-width: 991px) {
-    .sidebar {
-        width: 100px;
-    }
-    
-    .main-corp {
-        width: calc(100% - 100px);
-    }
+  .sidebar {
+    width: 100px;
+  }
+
+  .main-corp {
+    width: calc(100% - 100px);
+  }
+
+  .custom-offcanvas {
+    width: 50% !important;
+  }
 }
